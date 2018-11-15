@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TicketIT Automation]">
+  <listeners>
+    <listener class-name="com.qa.EventReportListerner.ExtentReporterNG"/>
+  </listeners>
+  <test name="TicketIT Test Automation(failed)">
+    <classes>
+      <class name="com.ticketit.qa.testcase.HomePageTest">
+        <methods>
+          <include name="verifyDepartmentLinkTest"/>
+          <include name="clickAdminLink"/>
+          <include name="setUp"/>
+          <include name="verifyHomePageTitleTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ticketit.qa.testcase.HomePageTest -->
+      <class name="com.ticketit.qa.testcase.DepartmentTest">
+        <methods>
+          <include name="validateAddedDepartment"/>
+          <include name="verifyDepartmentPageLabelTest"/>
+          <include name="validateCreateNewDepartment" invocation-numbers="0 1"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="clickOnDeptTest"/>
+        </methods>
+      </class> <!-- com.ticketit.qa.testcase.DepartmentTest -->
+    </classes>
+  </test> <!-- TicketIT Test Automation(failed) -->
+</suite> <!-- Failed suite [TicketIT Automation] -->

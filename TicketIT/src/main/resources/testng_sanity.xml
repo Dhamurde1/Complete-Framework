@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="TicketIT Test Automation " verbose="1" >
+  <test name="TicketIT Test" >
+    <classes>
+       <class name="com.ticketit.qa.testcase.HomePageTest"> </class>
+       <class name="com.ticketit.qa.testcase.DepartmentTest"> </class>
+     
+       
+    </classes>
+  </test>
+
+</suite>

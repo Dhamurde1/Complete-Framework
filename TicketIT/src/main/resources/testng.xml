@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>	
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TicketIT Automation">
+
+  
+  <listeners>
+		<listener class-name="com.qa.EventReportListerner.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="TicketIT Test Automation">
+		<classes>
+			 <class name="com.ticketit.qa.testcase.HomePageTest"> </class>
+       <class name="com.ticketit.qa.testcase.DepartmentTest"> </class>
+     
+		</classes>
+	</test>
+</suite>

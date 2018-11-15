@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [TicketIT Test Automation ]]">
+  <test name="TicketIT Test(failed)(failed)">
+    <classes>
+      <class name="com.ticketit.qa.testcase.DepartmentTest">
+        <methods>
+          <include name="validateAddedDepartment"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.ticketit.qa.testcase.DepartmentTest -->
+    </classes>
+  </test> <!-- TicketIT Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [TicketIT Test Automation ]] -->
